@@ -15,6 +15,7 @@ def maxChildArrDP(arr):
 
 #通过使用pre记录前一项的最大前缀和，和当前变量作比较，滚动记录前一项最大前缀和，无需开辟n长空间
 #优化空间
+#opti stands for optimization 优化
 def maxChildArrDPOpti(arr):
     pre = arr[0]            #记录前一个最大前缀
     sum = arr[0]            #记录最终结果
